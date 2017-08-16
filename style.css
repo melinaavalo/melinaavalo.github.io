@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding:0;
+	}
+a {color:white;
+	text-decoration: none;
+	}
+body {
+	background-color: black;
+	font-family: Helvetica, Arial;
+	cursor: url(https://raw.githubusercontent.com/melinaavalo/melinaavalo.github.io/master/imgs/cursorrosa.gif), default 
+	}
+.black-text {
+	color: black;
+	font-size: 120px;
+	line-height: 80px;
+	transition:all ease 0.2s;
+	}
+.white-box {
+	background-color: white;
+	padding: 40px 20px 0px 20px;
+	}
+.white-text {
+	color: white;
+	font-size: 60px;
+	}
+.black-box {
+	margin: 40px;
+	color: white;
+	overflow: hidden;
+	}
+.black-box span {
+	font-size: 50px;
+	transform: rotate(180deg);
+	display: block;
+	float: left;
+	margin: 10px 0px 0px 0px;
+	transition:all ease 0.2s;
+	}
+.black-box a {
+	font-size: 60px;
+	display: block;
+	float: left;
+	transition:all ease 0.2s;
+	}
+.grid-item {
+		width:20%;
+		margin-bottom:-5px;
+		height:auto;
+		}
+.grid-item img {
+		width:100%;
+		height:auto;
+		
+	}
+.grid {
+		width:100%
+		}
+a:hover {
+    	color: #f55589;
+}
+:link, :visited { cursor: url(https://raw.githubusercontent.com/melinaavalo/melinaavalo.github.io/master/imgs/cursorrosa.gif), pointer }
+a.flip {
+	-moz-transform:scaleY(-1);
+	-o-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	transform:scaleY(-1);
+	filter:FlipV;
+	color: #f55589;
+	}
+.footer {
+	background-color: black;
+	padding: 50px 60px 50px 40px;
+	text-align: right;
+}
+.footer a {
+	font-size: 35px;
+	margin-left: 20px;
+	}
+
+	
+@media all and (max-width:433px) {
+.black-box span {
+	font-size: 11px;
+	margin: 4px 0px 0px 0px;
+	}
+	.black-box a {
+	font-size: 16px;
+	}
+	.black-text {
+	color: black;
+	font-size: 50px;
+	line-height: 30px;
+	}
+	.grid-item {
+		width:50%;
+		margin-bottom:-10px;
+		}
+}
+@media all and (min-width:434px) and (max-width:575px) {
+.black-box span {
+	font-size: 18px;
+	margin: 5px 0px 0px 0px;
+	}
+	.black-box a {
+	font-size: 25px;
+	}
+	.black-text {
+	color: black;
+	font-size: 90px;
+	line-height: 60px;
+	}
+	.grid-item {
+		width:33.3333%;
+		margin-bottom:-10px;
+		}
+}
+@media all and (min-width:576px) and (max-width:720px) {
+.black-box span {
+	font-size: 25px;
+	}
+	.black-box a {
+	font-size: 35px;
+	}
+	.grid-item {
+		width:25%;
+		margin-bottom:-10px;
+		}
+}
+
+@media all and (min-width:721px) and (max-width:960px) {
+.black-box span {
+	font-size: 32px;
+	}
+	.black-box a {
+	font-size: 45px;
+	}
+	.grid-item {
+		width:25%;
+		margin-bottom:-10px;
+		}
+}
