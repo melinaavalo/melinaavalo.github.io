@@ -5,4 +5,3 @@ body {height:100%;}
 .galeria div { text-align: center; position:relative; height:100%}
 .galeria img {margin:auto; position:absolute; top:0; right:0; bottom:0; left:0; max-width: 100%; height: auto; max-height: 90%;}
 .galeria .img1 img {top:5%;}
-.marco {margin:auto; position:absolute; top:0; right:0; bottom:0; left:0; background:url(imgs/frame.png) center no-repeat; background-size: contain; z-index: 9999; max-height:90%; pointer-events:none;}
